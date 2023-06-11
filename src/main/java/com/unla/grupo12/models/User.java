@@ -32,6 +32,11 @@ public class User {
     public void setPasswd(String passwd) {
         this.passwd = passwd;
     }
+
+    public String getBirth() {
+        return birth;
+    }
+
     public void setBirth(String birth) {
         this.birth = birth;
     }
