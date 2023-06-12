@@ -25,6 +25,8 @@ public class FormController {
         System.out.println(user.getLname());
         System.out.println(user.getBirth());
         System.out.println(user.getEmail());
+        System.out.println(user.getGender());
+        System.out.println(user.getPasswd());
 
         model.addAttribute("firstname", user.getFname());
         model.addAttribute("lastname", user.getLname());
