@@ -1,9 +1,16 @@
 package com.unla.grupo12.models;
 
+import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.Size;
+
 public class Degree {
     private int idDegree;
     private String name;
+
+    @Size(min=3, max=38)
     private String institution;
+    
+    @Min(3)
     private int year;
 
     public Degree() {
