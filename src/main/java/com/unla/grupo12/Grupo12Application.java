@@ -13,7 +13,7 @@ public class Grupo12Application {
 	public static void main(String[] args) {
 		SpringApplication.run(Grupo12Application.class, args);
 	}
-	
+	/* 
 	@Bean
 	public CommandLineRunner commandLineRunner(ApplicationContext ctx) {
 		return args -> {
@@ -27,6 +27,6 @@ public class Grupo12Application {
 			}
 
 		};
-	}
+	}*/
 
 }

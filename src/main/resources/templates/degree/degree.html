@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8"/>
+		<title>Formulario Degree</title>
+	</head>
+	<body>
+        <h1>Form</h1>
+		<form action="#" th:action="@{newdegree}" th:object="${degree}" method="post">
+        <label for="name">Name : </label></br>
+        <input type="text" name="name" th:field="*{name}"/><br/>
+
+        <label for="institution">Institution : </label><br>
+        <input type="text" name="institution" th:field="*{institution}"/><br/>
+        <p th:if="${#fields.hasErrors('institution')}" th:errors="*{institution}">Institution has errors</p>
+
+        <label for="year">Year : </label><br>
+        <input type="number" name="year" th:field="*{year}"/><br/>
+        <p th:if="${#fields.hasErrors('year')}" th:errors="*{year}">Year has errors</p>
+        <br>
+        <button type="submit">Submit</button>
+        </form>
+	</body>
+</html>
