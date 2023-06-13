@@ -41,6 +41,8 @@ public class Degree {
 	@UpdateTimestamp
 	private LocalDateTime updatedAt;
 
+    //Esta sección faltaba en la TFI
+
 	public Degree(int id, String name, String institution, int year) {
 		this.id = id;
 		this.name = name;
