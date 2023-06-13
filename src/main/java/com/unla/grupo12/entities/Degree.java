@@ -49,11 +49,11 @@ public class Degree {
 		this.institution = institution;
 		this.year = year;
 	}
-
+    /* 
 	public Degree(String name, String institution, int year) {
 		this.name = name;
 		this.institution = institution;
 		this.year = year;
-	}
+	}*/
 }
 
