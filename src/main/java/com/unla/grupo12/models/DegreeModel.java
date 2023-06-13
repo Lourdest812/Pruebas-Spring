@@ -3,7 +3,7 @@ package com.unla.grupo12.models;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.Size;
 
-public class Degree {
+public class DegreeModel {
     private int idDegree;
     private String name;
 
@@ -13,10 +13,10 @@ public class Degree {
     @Min(3)
     private int year;
 
-    public Degree() {
+    public DegreeModel() {
     }
 
-    public Degree(int idDegree, String name, String institution, int year) {
+    public DegreeModel(int idDegree, String name, String institution, int year) {
         this.idDegree = idDegree;
         this.name = name;
         this.institution = institution;
