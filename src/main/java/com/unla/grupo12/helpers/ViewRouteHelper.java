@@ -14,6 +14,10 @@ public class ViewRouteHelper {
     public final static String DEGREE_INDEX = "degree/index";
     public final static String DEGREE_ROOT = "/degrees/";
 
+    //DispositivoController
+    public final static String DISPOSITIVO_INDEX = "dispositivo/dispositivo";
+    public final static String DISPOSITIVO_ROOT = "/dispositivos/";
+
     //Redirect
     public final static String  ROUTE_INDEX = "/index";
 }

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Dispositivo</title>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Activo</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="dispositivo : ${dispositivos}">
+                <td><span th:text="${dispositivo.nombre}" /></td>
+                <td><span th:text="${dispositivo.activo}" /></td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="#" th:action="@{/dispositivos/}" th:object="${dispositivo}" method="post">
+        <p>Nombre: <input type="text" th:field="*{nombre}" /></p>
+        <p>Activo: <input type="text" th:field="*{activo}" /></p>
+        <input type="submit" />
+    </form>
+</body>
+</html>
