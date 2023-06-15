@@ -16,7 +16,11 @@ public class ViewRouteHelper {
 
     //DispositivoController
     public final static String DISPOSITIVO_INDEX = "dispositivo/dispositivo";
-    public final static String DISPOSITIVO_ROOT = "/dispositivos/";
+    public final static String DISPOSITIVO_ROOT = "/dispositivo/";
+
+    //USER
+	public final static String USER_LOGIN = "user/login";
+	public final static String USER_LOGOUT = "user/logout";
 
     //Redirect
     public final static String  ROUTE_INDEX = "/index";

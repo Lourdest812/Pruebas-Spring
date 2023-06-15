@@ -1,6 +1,6 @@
 package com.unla.grupo12.models;
 
-public class User {
+public class UserModel {
     private String fname;
     private String lname;
     private String email;

@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.ui.Model;
 
-import com.unla.grupo12.models.User;
+import com.unla.grupo12.models.UserModel;
 
 @Controller
 @RequestMapping("/")
@@ -18,7 +18,7 @@ public class FormController {
     }
 
     @PostMapping("/register")
-    public String userRegistration(@ModelAttribute User user, Model model){
+    public String userRegistration(@ModelAttribute UserModel user, Model model){
         System.out.println(user.toString());
 
         System.out.println(user.getFname());

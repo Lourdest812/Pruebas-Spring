@@ -18,7 +18,7 @@
             </tr>
         </tbody>
     </table>
-    <form action="#" th:action="@{/dispositivos/}" th:object="${dispositivo}" method="post">
+    <form action="#" th:action="@{/dispositivo/}" th:object="${dispositivo}" method="post">
         <p>Nombre: <input type="text" th:field="*{nombre}" /></p>
         <p>Activo: <input type="text" th:field="*{activo}" /></p>
         <input type="submit" />

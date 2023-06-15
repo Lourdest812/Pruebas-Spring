@@ -16,7 +16,7 @@ import com.unla.grupo12.models.DispositivoModel;
 import com.unla.grupo12.services.IDispositivoService;
 
 @Controller
-@RequestMapping("/dispositivos")
+@RequestMapping("/dispositivo")
 public class DispositivoController {
     @Autowired
     @Qualifier("dispositivoService")
